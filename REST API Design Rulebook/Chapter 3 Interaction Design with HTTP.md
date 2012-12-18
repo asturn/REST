@@ -2,7 +2,7 @@
 
 ### 请求方法
 
-客户端在**Request-Line**(HTTP请求信息的一部分)中指定具体的交互方法(interaction method) [RFC 2616](http://www.rfc-editor.org/rfc/rfc2616.txt) 定义了**Request-Line**如下的语法：
+客户端在 **Request-Line** (HTTP请求信息的一部分)中指定具体的交互方法(interaction method) [RFC 2616](http://www.rfc-editor.org/rfc/rfc2616.txt) 定义了 **Request-Line** 如下的语法：
 
 		Request-Line   = Method SP Request-URI SP HTTP-Version CRLF
 
@@ -30,11 +30,11 @@
 
 + POST must be used to create a new resource in a collection
 
-下面的例子显示了客户端如何利用*`POST`*请求建立一个新的collection：
+	下面的例子显示了客户端如何利用 *`POST`* 请求建立一个新的collection：
 
-	POST /leagues/seattle/teams/trebuchet/players
-	# Note the request message may contain a representation that suggests the initial state 
-	of the player to be created.
+		POST /leagues/seattle/teams/trebuchet/players
+		# Note the request message may contain a representation that suggests the initial state 
+		of the player to be created.
 
 + POST must be used to execute controller
 	
@@ -43,7 +43,7 @@
 
 + DELETE 删除资源
 
-客户端使用`DELETE`从它的父类（可能是collection或者store）移除一个资源。ps:翻译的都待商榷。
+	客户端使用`DELETE`从它的父类（可能是`collection`或者`store`）移除一个资源。ps:翻译的都待商榷。
 
 + OPTIONS should be used to retrieve metadata that describes a resource’s available interactions
 	
