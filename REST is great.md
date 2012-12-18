@@ -12,7 +12,7 @@ REST是英文 **Representational** State Transfer的缩写
 4. 对资源的各种操作不会改变资源标识符；
 5. 所有的操作都是无状态的（stateless）。
 
-REST 基于**HTTP**协议，对任何资源的操作都是通过http协议来实现的
+REST 基于 **HTTP** 协议，对任何资源的操作都是通过http协议来实现的
 
 HTTP 对一个资源的操作限制为4个方法：
 
